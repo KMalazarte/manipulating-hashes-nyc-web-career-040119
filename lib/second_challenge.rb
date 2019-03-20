@@ -8,6 +8,6 @@ def second_challenge
 
   #code your solution here!
 items = []
-groceries.values = items
+groceries.value = items
 items.join(", ")
 end
