@@ -13,7 +13,7 @@ def first_challenge
     }
   }
 
-contacts["Freddy Mercury"].deleteif do |flavor|
+contacts["Freddy Mercury"].delete.if do |flavor|
     flavor == strawberry
 end
   
