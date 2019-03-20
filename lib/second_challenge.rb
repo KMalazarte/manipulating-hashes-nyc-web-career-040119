@@ -10,5 +10,5 @@ def second_challenge
 items = []
 items = groceries.values
 items.join (", ")
-items.split (",")
+items.split 
 end
