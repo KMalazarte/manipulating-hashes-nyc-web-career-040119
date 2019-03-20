@@ -13,9 +13,10 @@ def first_challenge
     }
   }
 
-contacts["Freddy Mercury"]
-
-
+contacts["Freddy Mercury"].deleteif do |flavor|
+    flavor == strawberry
+end
+  
   #remember to return your newly altered contacts hash!
   contacts
 end
