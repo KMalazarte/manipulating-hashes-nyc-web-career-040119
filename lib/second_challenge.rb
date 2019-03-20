@@ -9,6 +9,6 @@ def second_challenge
   #code your solution here!
 items = []
 items = groceries.values
-items = items.join
+items = items.join(",")
 items.split 
 end
